@@ -1,0 +1,5 @@
+require 'slack-ruby-bot'
+require 'slack-gif-bot/version'
+require 'slack-gif-bot/commands'
+require 'slack-gif-bot/app'
+require 'config/initializers/google_cse_api.rb'

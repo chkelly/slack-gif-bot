@@ -56,7 +56,7 @@ Note that google is kind of stingy with API requests. you get a Quota of 100/day
 Now that you have the three items from the above you can run a prebuilt container and immediately start using this bot. Just run the following wherever you want the bot to run.
 
 ```
-docker run -e SLACK_API_TOKEN=<Slack_API_Token> -e GOOGLE_API_KEY=<Google_API_Key> -e GOOGLE_SEARCH_CX=<Google_Search_CX> --restart chkelly/slack-gif-bot:v1.0.0
+docker run -d -e SLACK_API_TOKEN=<Slack_API_Token> -e GOOGLE_API_KEY=<Google_API_Key> -e GOOGLE_SEARCH_CX=<Google_Search_CX> --restart=always chkelly/slack-gif-bot:v1.0.0
 ```
 
 ## Running it on the CLI

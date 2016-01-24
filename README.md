@@ -77,11 +77,11 @@ Your bot should now be connected. You can add the bot into specific channel by s
 
 ## Testing communication
 
-@<bot_name> ping should cause the bot to return with "pong" immediately in channel
+`@<bot_name> ping` should cause the bot to return with "pong" immediately in channel
 
 ## Random Gif
 
-@<bot_name> gif <some text> will cause the bot to google image search and return a random gif from the first 10 results. Note that if you experience a limited selection, or no gifs at all, be sure to pay extra close attention to the instructions above around configuration of Google's Custom Search.
+`@<bot_name> gif <some text>` will cause the bot to google image search and return a random gif from the first 10 results. Note that if you experience a limited selection, or no gifs at all, be sure to pay extra close attention to the instructions above around configuration of Google's Custom Search.
 
 # Contributing
 

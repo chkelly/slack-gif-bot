@@ -70,7 +70,7 @@ bundle exec puma -p 8080
 
 # Bot Managment and supported commands
 
-Note that for commands, the bot will also respond without the @. The bot will also respond in private message without the bot's name.
+Note that for commands, the bot will also respond without the @. The bot will also respond in private message without the bots name.
 
 ## Joining a channel
 Your bot should now be connected. You can add the bot into specific channel by sending it an invite. Enter the channel you want to invite the bot too and type `/invite @<bot_name> `. The bot should now be in the channel.

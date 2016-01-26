@@ -4,7 +4,7 @@ module SlackGifBot
   module Commands
     class Gif < SlackRubyBot::Commands::Base
       def self.call(client, data, _match)
-        query = data.text.split('>: ')[1]
+        query = data.text.split(' ')[2]
         #Public API Key for now since giphy is in beta
         response = HTTParty.get("http://api.giphy.com/v1/gifs/search?q=#{URI.encode(query)}&api_key=dc6zaTOxFJmzC")
         images = response['data']
